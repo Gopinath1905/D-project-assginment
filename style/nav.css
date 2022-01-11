@@ -1,0 +1,45 @@
+.grove{
+    border-style:groove ;
+}
+.cl1{
+    display: flex;
+   border-style: none;
+    border-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 25px; 
+}
+.c1,.c2,.c3,.c4{
+   justify-content: space-evenly;
+   padding-left: 250px;
+}
+button{
+   background-color: aqua;
+    color: black;
+    font-weight: bold;
+   border-radius: 20px;
+   animation: blinkbutton 1s infinite;
+}
+.cl2{
+    display: flex;
+    border-style: none;
+    border-color: none;
+}
+.c5{
+    background-color: red;
+    color: black;
+  text-align: center;
+  margin-right: 325px;
+   margin-left: 100px;
+   margin-bottom: 10px;
+}
+.c6{
+   margin-right: 225px; 
+   margin-bottom: 10px; 
+}
+@keyframes blinkbutton{
+    0%{opacity: 0.1;}
+    100%{opacity: 1;
+        text-shadow: 1px 0px 30px aqua;
+    }
+}
